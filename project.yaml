@@ -21,7 +21,7 @@ dataSources:
       file: './node_modules/@subql/contract-processors/dist/frontierEvm.js'
       options:
         abi: airdrop
-        address: '0xA2e50d0BdF0A6C635f039F4344C9E16b79f38cB7'
+        address: '0xC49c765e5Eff900dC9CC30086C5cA8aC97487F67'
     assets:
       airdrop:
         file: './abi.airdrop.json'

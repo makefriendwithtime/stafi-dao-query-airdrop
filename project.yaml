@@ -21,7 +21,7 @@ dataSources:
       file: './node_modules/@subql/contract-processors/dist/frontierEvm.js'
       options:
         abi: airdrop
-        address: '0x342CdC89aaeBAd9AfD0A07404c2e86702FCE71cd'
+        address: '0xa23a6FEf15a42fDaBD1Fe8f0E68d0A32E5B2f2E2'
     assets:
       airdrop:
         file: './abi.airdrop.json'
@@ -32,4 +32,4 @@ dataSources:
           kind: substrate/FrontierEvmEvent
           filter:
             topics:
-              - Transfer(address indexed from,address indexed to,uint256 value)
+              - Droping(address[] dropAddrs,uint256[] dropAmounts)
